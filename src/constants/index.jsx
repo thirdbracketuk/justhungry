@@ -1,21 +1,21 @@
-import dish1 from "../../public/dish1.jpeg";
-import dish2 from "../../public/dish2.jpeg";
-import dish3 from "../../public/dish3.jpeg";
-import dish4 from "../../public/dish4.jpeg";
-import dish5 from "../../public/dish5.jpeg";
-import dish6 from "../../public/dish6.jpeg";
-import dish7 from "../../public/dish7.jpeg";
-import dish8 from "../../public/dish8.jpeg";
-import dish9 from "../../public/dish9.jpeg";
-import dish10 from "../../public/dish10.jpeg";
-import italian from "../assets/italian.jpeg";
-import japanese from "../assets/japanese.jpeg";
-import indian from "../assets/indian.jpeg";
+import dish1 from "../../public/dish1.webp";
+import dish2 from "../../public/dish2.webp";
+import dish3 from "../../public/dish3.webp";
+import dish4 from "../../public/dish4.webp";
+import dish5 from "../../public/dish5.webp";
+import dish6 from "../../public/dish6.webp";
+import dish7 from "../../public/dish7.webp";
+import dish8 from "../../public/dish8.webp";
+import dish9 from "../../public/dish9.webp";
+import dish10 from "../../public/dish10.webp";
+import italian from "../assets/1.webp";
+import japanese from "../assets/2.webp";
+import indian from "../assets/3.webp";
 
 import { FaXTwitter, FaFacebook, FaInstagram } from "react-icons/fa6";
 
 export const LINKS = [
-  { text: "Dishes", targetId: "dishes" },
+  { text: "Menu", targetId: "dishes" },
   { text: "About", targetId: "about" },
   { text: "Mission", targetId: "mission" },
   { text: "Expertise", targetId: "expertise" },
@@ -26,54 +26,54 @@ export const LINKS = [
 export const DISHES = [
   {
     image: dish1,
-    title: "Spaghetti Carbonara",
-    description: "Creamy pasta with bacon and cheese",
+    title: "JUST CHICKEN",
+    description: "Cruncy, juicy chicken made for bold flavour in every bite.",
   },
   {
     image: dish2,
-    title: "Chicken Tikka Masala",
-    description: "Indian curry with tender chicken in spicy sauce",
+    title: "CHICKEN WINGS",
+    description: "Savor the ultimate experience with our sauced wings",
   },
   {
     image: dish3,
-    title: "Caprese Salad",
-    description: "Fresh tomatoes, mozzarella, and basil with balsamic glaze",
+    title: "HOT DOGS",
+    description: "Classy hot dog loaded with smoked sausage",
   },
   {
     image: dish4,
-    title: "Sushi Roll",
-    description: "Assorted seafood and vegetables wrapped in seaweed and rice",
+    title: "SNACKY BITES",
+    description:
+      "Light bites loaded with cheese, crunch, and instant satisfaction.",
   },
   {
     image: dish5,
-    title: "Chocolate Lava Cake",
-    description: "Decadent chocolate cake with a gooey center",
+    title: "ON THE SIDE",
+    description: "Fresh fries and dips built to level up your meal fast.",
   },
   {
     image: dish6,
-    title: "Greek Salad",
-    description: "Crisp lettuce, olives, feta cheese, and tangy dressing",
+    title: "BURGERS",
+    description: "Juicy stacked burger built for pure, messy satisfaction.",
   },
   {
     image: dish7,
-    title: "Pad Thai",
-    description: "Stir-fried rice noodles with shrimp, tofu, and peanuts",
+    title: "DESSERTS",
+    description: "Warm dough and rich brownie made for sweet comfort.",
   },
   {
     image: dish8,
-    title: "Peking Duck",
-    description: "Crispy duck with pancakes, cucumber, and hoisin sauce",
+    title: "KIDS MEAL",
+    description: "Fun, easy bites made for small hands and big smiles.",
   },
   {
     image: dish9,
-    title: "Beef Wellington",
-    description: "Tender beef filet wrapped in pastry with mushrooms and herbs",
+    title: "DRINKS",
+    description: "Cold, refreshing sips that keep every meal light and smooth.",
   },
   {
     image: dish10,
-    title: "Tiramisu",
-    description:
-      "Italian dessert with layers of coffee-soaked biscuits and mascarpone",
+    title: "JUST HUNGRY COMBINATION DEALS",
+    description: "Perfectly paired combos build for sharing and indulgence.",
   },
 ];
 
@@ -90,23 +90,22 @@ export const CUSINES = [
   {
     number: "01.",
     image: italian,
-    title: "Italian",
+    title: "Crispy & Flavor-Packed Chicken",
     description:
-      "Experience the flavors of Italy with our exquisite Italian cuisine, featuring traditional recipes and contemporary dishes.",
+      "Emphasizing mastery in wings, nuggets, fillets, and lollipops.",
   },
   {
     number: "02.",
     image: japanese,
-    title: "Japanese",
-    description:
-      "Delight in the art of Japanese culinary excellence, offering a fusion of classic and modern flavors.",
+    title: "Quick, Fun Snack Innovation",
+    description: "Highlighting skill in snacky bites, fries, dips, and sides.",
   },
   {
     number: "03.",
     image: indian,
-    title: "Indian",
+    title: "Indulgent Comfort Foods",
     description:
-      "Indulge in the rich and diverse tastes of India, with a menu that celebrates the country's culinary heritage.",
+      "Showcasing desserts, burgers, and combo meals that deliver rich satisfaction",
   },
 ];
 

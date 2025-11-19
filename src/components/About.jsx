@@ -1,4 +1,4 @@
-import about from "../assets/about.svg";
+import about from "../assets/about.webp";
 import { ABOUT } from "../constants";
 import { motion } from "framer-motion";
 

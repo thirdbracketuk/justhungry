@@ -1,4 +1,4 @@
-import video from "../assets/hero.mp4";
+import video from "../assets/madebytb.mp4";
 import logo from "../assets/hero2.svg";
 import { motion } from "framer-motion";
 
