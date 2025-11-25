@@ -48,7 +48,16 @@ const Footer = () => {
         variants={fadeInUp}
         className="mt-8 text-center tracking-tighter text-neutral-500"
       >
-        &copy; Justhungry. All rights reserved.
+        &copy; Justhungry. All rights reserved.<br></br>
+        Visit{" "}
+        <a
+          className="text-orange-500"
+          target="_blank"
+          href="https://www.thirdbracket.co.uk"
+        >
+          Third Bracket
+        </a>{" "}
+        for <br></br>affordable web development in Manchester
       </motion.p>
     </motion.div>
   );

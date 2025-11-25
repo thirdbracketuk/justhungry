@@ -3,6 +3,8 @@ import logo from "../assets/logo2.svg";
 import { LINKS } from "../constants";
 import { FaBars, FaTimes } from "react-icons/fa";
 
+import { BsArrowUpRight } from "react-icons/bs";
+
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -58,6 +60,14 @@ const Navbar = () => {
               {link.text}
             </button>
           ))}
+          <a
+            target="_blank"
+            className="text-xs font-semibold text-white p-2 bg-gradient-to-l from-amber-500 to-orange-500 rounded-4xl"
+            href="https://www.thirdbracket.co.uk/contact"
+          >
+            For Website{" "}
+            <BsArrowUpRight className="inline-flex ml-1 items-center" />
+          </a>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -80,6 +90,14 @@ const Navbar = () => {
               {link.text}
             </button>
           ))}
+          <a
+            className="block p-4 uppercase tracking-tighter text-white bg-gradient-to-l from-amber-500 to-orange-500   "
+            target="_blank"
+            href="https://www.thirdbracket.co.uk/contact"
+          >
+            Contact for website{" "}
+            <BsArrowUpRight className="inline-flex ml-2 items-center" />
+          </a>
         </div>
       )}
     </nav>
