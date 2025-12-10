@@ -1,13 +1,30 @@
-import dish1 from "../../public/dish1.webp";
-import dish2 from "../../public/dish2.webp";
-import dish3 from "../../public/dish3.webp";
-import dish4 from "../../public/dish4.webp";
-import dish5 from "../../public/dish5.webp";
-import dish6 from "../../public/dish6.webp";
-import dish7 from "../../public/dish7.webp";
-import dish8 from "../../public/dish8.webp";
-import dish9 from "../../public/dish9.webp";
-import dish10 from "../../public/dish10.webp";
+import dish1 from "../../public/7.png";
+import dish2 from "../../public/10.png";
+import dish3 from "../../public/26.png";
+import dish4 from "../../public/12.png";
+import dish5 from "../../public/27.png";
+import dish6 from "../../public/1.png";
+import dish7 from "../../public/2.png";
+import dish8 from "../../public/3.png";
+import dish9 from "../../public/4.png";
+import dish10 from "../../public/5.png";
+// import dish11 from "../../public/6.png";
+import dish12 from "../../public/8.png";
+import dish13 from "../../public/9.png";
+import dish14 from "../../public/11.png";
+import dish15 from "../../public/13.png";
+import dish16 from "../../public/14.png";
+import dish17 from "../../public/15.png";
+import dish18 from "../../public/16.png";
+import dish19 from "../../public/17.png";
+import dish20 from "../../public/18.png";
+import dish21 from "../../public/19.png";
+import dish22 from "../../public/20.png";
+import dish23 from "../../public/21.png";
+import dish24 from "../../public/22.png";
+import dish25 from "../../public/23.png";
+import dish26 from "../../public/24.png";
+import dish27 from "../../public/25.png";
 import italian from "../assets/1.webp";
 import japanese from "../assets/2.webp";
 import indian from "../assets/3.webp";
@@ -22,58 +39,301 @@ export const LINKS = [
   { text: "Review", targetId: "review" },
   { text: "Contact", targetId: "contact" },
 ];
-
+<span></span>;
 export const DISHES = [
   {
     image: dish1,
-    title: "JUST CHICKEN",
-    description: "Cruncy, juicy chicken made for bold flavour in every bite.",
+    title: "American Burger",
+    description: (
+      <span>
+        2 Chicken Fillet, 2 Battered Onion Rings -
+        <strong className="text-base"> £8.99</strong>
+      </span>
+    ),
   },
   {
     image: dish2,
-    title: "CHICKEN WINGS",
-    description: "Savor the ultimate experience with our sauced wings",
+    title: "HOT DOG",
+    description: (
+      <span>
+        Caramelised Onions, Sauce -<strong className="text-base"> £5.49</strong>
+      </span>
+    ),
   },
+
   {
     image: dish3,
-    title: "HOT DOGS",
-    description: "Classy hot dog loaded with smoked sausage",
+    title: "CHICKEN WINGS",
+    description: (
+      <span>
+        4pc -<strong className="text-base"> £4.49</strong> / 6pc -
+        <strong className="text-base"> £5.99</strong> / 10pc -
+        <strong className="text-base"> £7.99</strong> / 20pc -
+        <strong className="text-base"> £14.99</strong>
+      </span>
+    ),
   },
+
   {
     image: dish4,
-    title: "SNACKY BITES",
-    description:
-      "Light bites loaded with cheese, crunch, and instant satisfaction.",
+    title: "JUST HUNGRY COMBO",
+    description: (
+      <span>
+        JustHungry Mix -<strong className="text-base"> £11.99</strong> / Variety
+        mix -<strong className="text-base"> £14.99</strong> / Boneless mix -
+        <strong className="text-base"> £21.99</strong> / Mega mix -
+        <strong className="text-base"> £31.99</strong>
+      </span>
+    ),
   },
   {
     image: dish5,
-    title: "ON THE SIDE",
-    description: "Fresh fries and dips built to level up your meal fast.",
+    title: "CHEESE NUGGET",
+    description: (
+      <span>
+        8pc -<strong className="text-base"> £3.99</strong> / 15pc -
+        <strong className="text-base"> £5.99</strong>
+      </span>
+    ),
   },
   {
     image: dish6,
-    title: "BURGERS",
-    description: "Juicy stacked burger built for pure, messy satisfaction.",
+    title: "CHUNKY CHICKEN",
+    description: (
+      <span>
+        4pc -<strong className="text-base"> £3.99</strong> / 6pc -
+        <strong className="text-base"> £4.99</strong> / 7pc -
+        <strong className="text-base"> £5.99</strong>
+      </span>
+    ),
   },
   {
     image: dish7,
-    title: "DESSERTS",
-    description: "Warm dough and rich brownie made for sweet comfort.",
+    title: "CHEEKY BITES",
+    description: (
+      <span>
+        8pc -<strong className="text-base"> £3.99</strong> / 15pc -
+        <strong className="text-base"> £5.99</strong> / 30pc -
+        <strong className="text-base"> £11.99</strong>
+      </span>
+    ),
   },
   {
     image: dish8,
-    title: "KIDS MEAL",
-    description: "Fun, easy bites made for small hands and big smiles.",
+    title: "SPICY MOZZARELLA",
+    description: (
+      <span>
+        6pc -<strong className="text-base"> £3.99</strong> / 10pc -
+        <strong className="text-base"> £5.99</strong> / 20pc -
+        <strong className="text-base"> £9.99</strong>
+      </span>
+    ),
   },
   {
     image: dish9,
-    title: "DRINKS",
-    description: "Cold, refreshing sips that keep every meal light and smooth.",
+    title: "POPCORN CHICKEN",
+    description: (
+      <span>
+        15pc -<strong className="text-base"> £3.99</strong> / 20pc -
+        <strong className="text-base"> £4.99</strong> / 30pc -
+        <strong className="text-base"> £6.99</strong>
+      </span>
+    ),
   },
   {
     image: dish10,
-    title: "JUST HUNGRY COMBINATION DEALS",
-    description: "Perfectly paired combos build for sharing and indulgence.",
+    title: "CHICKEN STRIP",
+    description: (
+      <span>
+        15pc -<strong className="text-base"> £3.99</strong> / 20pc -
+        <strong className="text-base"> £5.99</strong> / 30pc -
+        <strong className="text-base"> £11.99</strong>
+      </span>
+    ),
+  },
+
+  // {
+  //   image: dish11,
+  //   title: "JUST HUNGRY COMBINATION DEALS",
+  //   description: "Perfectly paired combos build for sharing and indulgence.",
+  // },
+  {
+    image: dish12,
+    title: "CHICKEN BURGER",
+    description: (
+      <span>
+        1 chicken fillet, onion, sauce -
+        <strong className="text-base">£4.99</strong>
+      </span>
+    ),
+  },
+  {
+    image: dish13,
+    title: "SPICY BURGER",
+    description: (
+      <span>
+        2 Chicken Strip, onion, sauce -
+        <strong className="text-base">£4.99</strong>
+      </span>
+    ),
+  },
+  {
+    image: dish14,
+    title: "HOT DOG",
+    description: (
+      <span>
+        Caramalised onions, sauce -<strong className="text-base"> £5.49</strong>
+      </span>
+    ),
+  },
+  {
+    image: dish15,
+    title: "NACHO BITES",
+    description: (
+      <span>
+        8pc -<strong className="text-base"> £4.99</strong> / 15pc -
+        <strong className="text-base"> £5.99</strong>
+      </span>
+    ),
+  },
+  {
+    image: dish16,
+    title: "MOZZARELLA STICKS",
+    description: (
+      <span>
+        6pc -<strong className="text-base"> £3.99</strong> / 10pc -
+        <strong className="text-base"> £5.99</strong> / 20pc -
+        <strong className="text-base"> £9.99</strong>
+      </span>
+    ),
+  },
+  {
+    image: dish17,
+    title: "ONION RINGS",
+    description: (
+      <span>
+        8pc -<strong className="text-base"> £3.99</strong> / 15pc -
+        <strong className="text-base"> €5.99</strong>
+      </span>
+    ),
+  },
+  {
+    image: dish18,
+    title: "CHICKEN NUGGET",
+    description: (
+      <span>
+        6 Nuggets, Fries, Drink <br />
+        <span className="px-2 py-1 bg-gradient-to-l from-gray-800 to-slate-800 rounded-full  text-[10px] font-medium">
+          KIDS MEAL
+        </span>
+      </span>
+    ),
+  },
+  {
+    image: dish19,
+    title: "CHICKEN STRIP",
+    description: (
+      <span>
+        2 Chicken Strip, Fries, Drink
+        <br />
+        <span className="px-2 py-1 bg-gradient-to-l from-gray-800 to-slate-800 rounded-full  text-[10px] font-medium">
+          KIDS MEAL
+        </span>
+      </span>
+    ),
+  },
+
+  {
+    image: dish20,
+    title: "CHICKEN WINGS",
+    description: (
+      <span>
+        2 Wings, Fries, Drink
+        <br />
+        <span className="px-2 py-1 bg-gradient-to-l from-gray-800 to-slate-800 rounded-full  text-[10px] font-medium">
+          KIDS MEAL
+        </span>
+      </span>
+    ),
+  },
+  {
+    image: dish21,
+    title: "MOZARELLA STICK",
+    description: (
+      <span>
+        4XL Mozarella Sticks. Fries, Drink
+        <br />
+        <span className="px-2 py-1 bg-gradient-to-l from-gray-800 to-slate-800 rounded-full  text-[10px] font-medium">
+          KIDS MEAL
+        </span>
+      </span>
+    ),
+  },
+  {
+    image: dish22,
+    title: "ONION RINGS",
+    description: (
+      <span>
+        6 Battered Onion rings, Fries, Drink
+        <br />
+        <span className="px-2 py-1 bg-gradient-to-l from-gray-800 to-slate-800 rounded-full  text-[10px] font-medium">
+          KIDS MEAL
+        </span>
+      </span>
+    ),
+  },
+  {
+    image: dish23,
+    title: "POPCORN CHICKEN",
+    description: (
+      <span>
+        10 Popcorn, Fries, Drink
+        <br />
+        <span className="px-2 py-1 bg-gradient-to-l from-gray-800 to-slate-800 rounded-full  text-[10px] font-medium">
+          KIDS MEAL
+        </span>
+      </span>
+    ),
+  },
+  {
+    image: dish24,
+    title: "REGULAR FRIES",
+    description: (
+      <span>
+        Regular -<strong className="text-base"> £2.49</strong> / Large -
+        <strong className="text-base"> £3.49</strong>
+      </span>
+    ),
+  },
+  {
+    image: dish25,
+    title: "SPICY FRIES",
+    description: (
+      <span>
+        Regular -<strong className="text-base"> £2.49</strong> / Large -
+        <strong className="text-base"> £3.49</strong>
+      </span>
+    ),
+  },
+  {
+    image: dish26,
+    title: "CHEESY CHIPS",
+    description: (
+      <span>
+        <strong className="text-base">£3.49</strong>
+      </span>
+    ),
+  },
+  {
+    image: dish27,
+    title: "CHICKEN NUGGET",
+    description: (
+      <span>
+        8pc -<strong className="text-base"> £3.99</strong> / 10pc -
+        <strong className="text-base"> £4.99</strong> / 15pc -
+        <strong className="text-base"> £6.99</strong>
+      </span>
+    ),
   },
 ];
 
