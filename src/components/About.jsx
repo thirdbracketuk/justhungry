@@ -1,4 +1,4 @@
-import about from "../assets/about.webp";
+import about from "../assets/aaa.png";
 import { ABOUT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -11,7 +11,7 @@ const About = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
         viewport={{ once: true }}
-        className="mb-8 text-center text-3xl tracking-tighter lg:text-4xl"
+        className="mb-8 text-center text-3xl tracking-tighter lg:text-4xl font-bold"
       >
         About Us
       </motion.h2>
@@ -27,7 +27,7 @@ const About = () => {
         >
           <img
             src={about}
-            className="rounded-3xl shadow-lg lg:rotate-3"
+            className="rounded-3xl shadow-lg lg:rotate-0"
             alt="About Us"
           />
         </motion.div>
@@ -57,7 +57,7 @@ const About = () => {
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
             }}
-            className="text-4xl tracking-tighter lg:text-6xl"
+            className="text-4xl tracking-tighter lg:text-6xl m-4"
           >
             {ABOUT.header}
           </motion.h2>
@@ -68,7 +68,7 @@ const About = () => {
               hidden: { scaleX: 0 },
               visible: { scaleX: 1, transition: { duration: 0.5 } },
             }}
-            className="mb-8 mt-1 h-2 w-36 origin-left bg-[#dd866b] lg:rotate-3"
+            className="m-4 mt-1 h-2 w-36 origin-left bg-amber-600 lg:rotate-0 ml-4"
           ></motion.div>
 
           {/* Animated Paragraph */}
@@ -77,7 +77,7 @@ const About = () => {
               hidden: { opacity: 0, y: 20 },
               visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
             }}
-            className="m-8 text-2xl leading-relaxed tracking-tight lg:max-w-xl"
+            className="m-4 text-2xl leading-relaxed tracking-tight lg:max-w-xl"
           >
             {ABOUT.content}
           </motion.p>

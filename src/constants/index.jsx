@@ -338,13 +338,13 @@ export const DISHES = [
 ];
 
 export const ABOUT = {
-  header: "We love cooking!",
+  header: "Are you Just Hungry!",
   content:
-    "At Restaura, we believe that great food goes beyond taste; it tells a story of dedication and creativity. From our chef's signature creations to our attentive service, every detail is curated to ensure your visit is nothing short of exceptional. Whether you're savoring our renowned Tikka Kebab or exploring our diverse menu inspired by global flavors, each dish is a celebration of flavor and innovation. Join us for a culinary journey where every bite leaves a lasting impression. Experience Restaura—where every meal is a masterpiece.",
+    "Just Hungry is a fast food restaurant based in Blackpool, serving delicious, freshly prepared meals to locals and visitors alike. We focus on quality, great taste, and a friendly experience for every customer. Our goal is simple: make every meal satisfying and every visit enjoyable.",
 };
 
 export const MISSION =
-  "At our restaurant, our mission is to create delicious and memorable dining experiences.";
+  "At Just Hungry, our mission is to create delicious and memorable JustHungry experience.";
 
 export const CUSINES = [
   {
