@@ -379,7 +379,7 @@ export const REVIEW = {
 export const CONTACT = [
   { key: "address", value: "7 topping street, Blackpool, FY1 3AX" },
   { key: "phone", value: "Phone: 0750 715 5382" },
-  { key: "email", value: "Email: contact@justhungry.com" },
+  { key: "email", value: "Email: info@justhungry.co.uk" },
 ];
 
 export const SOCIAL_MEDIA_LINKS = [
