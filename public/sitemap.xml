@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://justhungry.co.uk</loc>
     <lastmod>2025-02-17</lastmod> <!-- UPDATED TO TODAY'S DATE -->
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+  <!-- Add all your static pages here -->
 </urlset>
+
