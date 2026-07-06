@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./index";
+import "./index.css";
 
 export const metadata: Metadata = {
   title: "Just Hungry",
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Just Hungry",
     description: "Just Hungry - Fast food restaurant in Blackpool",
-    url: "https://www.justhungry.co.uk/",
+    url: "https://justhungry.co.uk",
     siteName: "Just Hungry",
     images: [
       {
@@ -21,6 +21,12 @@ export const metadata: Metadata = {
     ],
     locale: "en_GB",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Just Hungry",
+    description: "Just Hungry - Fast food restaurant in Blackpool",
+    images: ["/og-image.png"],
   },
 };
 

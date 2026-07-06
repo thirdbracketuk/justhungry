@@ -225,7 +225,7 @@ export const DISHES: Dish[] = [
     description: (
       <span>
         6 Nuggets, Fries, Drink <br />
-        <span className="px-2 py-1 bg-gradient-to-l from-gray-800 to-slate-800 rounded-full text-[10px] font-medium">
+        <span className="px-2 py-1 bg-linear-to-l from-gray-800 to-slate-800 rounded-full text-[10px] font-medium">
           KIDS MEAL
         </span>
       </span>
@@ -238,7 +238,7 @@ export const DISHES: Dish[] = [
       <span>
         2 Chicken Strip, Fries, Drink
         <br />
-        <span className="px-2 py-1 bg-gradient-to-l from-gray-800 to-slate-800 rounded-full text-[10px] font-medium">
+        <span className="px-2 py-1 bg-linear-to-l from-gray-800 to-slate-800 rounded-full text-[10px] font-medium">
           KIDS MEAL
         </span>
       </span>
@@ -251,7 +251,7 @@ export const DISHES: Dish[] = [
       <span>
         2 Wings, Fries, Drink
         <br />
-        <span className="px-2 py-1 bg-gradient-to-l from-gray-800 to-slate-800 rounded-full text-[10px] font-medium">
+        <span className="px-2 py-1 bg-linear-to-l from-gray-800 to-slate-800 rounded-full text-[10px] font-medium">
           KIDS MEAL
         </span>
       </span>
@@ -264,7 +264,7 @@ export const DISHES: Dish[] = [
       <span>
         4XL Mozarella Sticks. Fries, Drink
         <br />
-        <span className="px-2 py-1 bg-gradient-to-l from-gray-800 to-slate-800 rounded-full text-[10px] font-medium">
+        <span className="px-2 py-1 bg-linear-to-l from-gray-800 to-slate-800 rounded-full text-[10px] font-medium">
           KIDS MEAL
         </span>
       </span>
@@ -277,7 +277,7 @@ export const DISHES: Dish[] = [
       <span>
         6 Battered Onion rings, Fries, Drink
         <br />
-        <span className="px-2 py-1 bg-gradient-to-l from-gray-800 to-slate-800 rounded-full text-[10px] font-medium">
+        <span className="px-2 py-1 bg-linear-to-l from-gray-800 to-slate-800 rounded-full text-[10px] font-medium">
           KIDS MEAL
         </span>
       </span>
@@ -290,7 +290,7 @@ export const DISHES: Dish[] = [
       <span>
         10 Popcorn, Fries, Drink
         <br />
-        <span className="px-2 py-1 bg-gradient-to-l from-gray-800 to-slate-800 rounded-full text-[10px] font-medium">
+        <span className="px-2 py-1 bg-linear-to-l from-gray-800 to-slate-800 rounded-full text-[10px] font-medium">
           KIDS MEAL
         </span>
       </span>
@@ -352,7 +352,8 @@ export const CUSINES: Cuisine[] = [
     number: "01.",
     image: "/assets/1.webp",
     title: "Crispy & Flavor-Packed Chicken",
-    description: "Emphasizing mastery in wings, nuggets, fillets, and lollipops.",
+    description:
+      "Emphasizing mastery in wings, nuggets, fillets, and lollipops.",
   },
   {
     number: "02.",

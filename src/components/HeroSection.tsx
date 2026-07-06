@@ -7,9 +7,24 @@ import { FcGoogle } from "react-icons/fc";
 import { GOOGLE_REVIEW_URL } from "@/constants";
 
 const stats = [
-  { label: "Just Eat", rating: "5.0", reviews: "20 reviews", icon: <SiJusteat size={28} className="text-orange-500" /> },
-  { label: "Uber Eats", rating: "4.9", reviews: "5 reviews", icon: <SiUbereats size={28} className="text-green-400" /> },
-  { label: "Google", rating: "5.0", reviews: "98 reviews", icon: <FcGoogle size={28} /> },
+  {
+    label: "Just Eat",
+    rating: "5.0",
+    reviews: "20 reviews",
+    icon: <SiJusteat size={28} className="text-orange-500" />,
+  },
+  {
+    label: "Uber Eats",
+    rating: "4.9",
+    reviews: "5 reviews",
+    icon: <SiUbereats size={28} className="text-green-400" />,
+  },
+  {
+    label: "Google",
+    rating: "5.0",
+    reviews: "98 reviews",
+    icon: <FcGoogle size={28} />,
+  },
 ];
 
 const HeroSection = () => {
@@ -27,10 +42,9 @@ const HeroSection = () => {
         />
       </div>
 
-      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-transparent from-70% to-black" />
+      <div className="absolute inset-0 -z-10 bg-linear-to-b from-transparent from-70% to-black" />
 
       <div className="relative z-20 w-full flex flex-col items-center justify-end gap-4 min-h-screen pb-12 px-4">
-
         {/* Logo */}
         <motion.img
           initial={{ opacity: 0, y: 30 }}
@@ -38,7 +52,7 @@ const HeroSection = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           src="/assets/hero2.svg"
           alt="Just Hungry"
-          className="w-full max-w-[60rem] lg:max-w-[70rem] p-4"
+          className="w-full max-w-240 lg:max-w-280 p-4"
         />
 
         {/* Rating stats */}
@@ -62,9 +76,13 @@ const HeroSection = () => {
               {stat.icon}
               <div className="flex items-center gap-1">
                 <FaStar className="text-amber-500" size={11} />
-                <span className="text-sm font-bold text-white">{stat.rating}</span>
+                <span className="text-sm font-bold text-white">
+                  {stat.rating}
+                </span>
               </div>
-              <span className="text-[10px] text-neutral-400">{stat.reviews}</span>
+              <span className="text-[10px] text-neutral-400">
+                {stat.reviews}
+              </span>
             </motion.div>
           ))}
         </motion.a>
@@ -78,7 +96,6 @@ const HeroSection = () => {
         >
           Blackpool
         </motion.p>
-
       </div>
     </section>
   );
