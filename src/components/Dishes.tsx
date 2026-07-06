@@ -9,6 +9,7 @@ import {
 } from "@/constants/menuData";
 import DishCard from "./DishCard";
 import { SiJusteat, SiUbereats } from "react-icons/si";
+import { HiArrowUpRight } from "react-icons/hi2";
 
 const Dishes = () => {
   const [activeCategory, setActiveCategory] = useState(MENU_CATEGORIES[0].id);
@@ -35,7 +36,8 @@ const Dishes = () => {
             className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-orange-500 hover:bg-orange-600 transition-colors text-sm font-bold text-white"
           >
             <SiJusteat size={16} />
-            Order on Just Eat
+            Browse on Just Eat
+            <HiArrowUpRight size={10} className="opacity-70" />
           </a>
           <a
             href={UBEREATS_URL}
@@ -44,7 +46,8 @@ const Dishes = () => {
             className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-neutral-800 hover:bg-neutral-700 transition-colors text-sm font-bold text-white border border-neutral-700"
           >
             <SiUbereats size={16} className="text-green-400" />
-            Order on Uber Eats
+            Browse on Uber Eats
+            <HiArrowUpRight size={10} className="opacity-70" />
           </a>
         </div>
 

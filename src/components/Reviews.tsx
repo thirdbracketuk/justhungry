@@ -14,13 +14,16 @@ const fadeInUp: Variants = {
 
 const stagger: Variants = {
   hidden: { opacity: 0 },
-  visible: { opacity: 1, transition: { staggerChildren: 0.15, delayChildren: 0.2 } },
+  visible: {
+    opacity: 1,
+    transition: { staggerChildren: 0.15, delayChildren: 0.2 },
+  },
 };
 
 const platformIcon: Record<string, ReactNode> = {
   "Just Eat": <SiJusteat size={24} className="text-orange-500" />,
   "Uber Eats": <SiUbereats size={24} className="text-green-400" />,
-  "Google": <FcGoogle size={24} />,
+  Google: <FcGoogle size={24} />,
 };
 
 const Reviews = () => {
@@ -55,13 +58,15 @@ const Reviews = () => {
             className="flex flex-col items-center rounded-2xl border border-neutral-700 bg-neutral-900 px-8 py-5 text-center cursor-pointer"
           >
             <div className="mb-2">{platformIcon[stat.platform]}</div>
-            <span className="text-2xl font-bold text-amber-500">{stat.rating}</span>
+            <span className="text-2xl font-bold text-amber-500">
+              {stat.rating}
+            </span>
             <div className="my-1 flex gap-0.5">
               {[...Array(5)].map((_, i) => (
                 <FaStar key={i} className="text-amber-500" size={12} />
               ))}
             </div>
-            <span className="text-sm text-neutral-400">{stat.reviews}</span>
+            {/* <span className="text-sm text-neutral-400">{stat.reviews}</span> */}
             <span className="mt-1 text-xs font-semibold tracking-wider text-neutral-500 uppercase">
               {stat.platform}
             </span>

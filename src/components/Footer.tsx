@@ -29,12 +29,11 @@ const Footer = () => {
       {/* Slim dual banner */}
       <motion.div
         variants={fadeInUp}
-        className="mx-4 mb-8 rounded-2xl border border-neutral-800 bg-neutral-900 overflow-hidden"
+        className="mx-4 mb-8 rounded-md border  border-zinc-900 bg-zinc-950 overflow-hidden"
       >
-        <div className="flex flex-col sm:flex-row divide-y sm:divide-y-0 sm:divide-x divide-neutral-800">
-
+        <div className="flex flex-col sm:flex-row divide-y sm:divide-y-0 sm:divide-x divide-zinc-900">
           {/* Third Bracket side */}
-          <div className="flex-1 px-6 py-5">
+          <div className="flex-1 px-6 py-6">
             <div className="mb-3">
               <a
                 href="https://www.thirdbracket.co.uk"
@@ -42,17 +41,39 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:opacity-80 transition-opacity inline-block"
               >
-                <img src="/logo1080.svg" alt="Third Bracket" className="h-7 w-auto" />
+                <img
+                  src="/logo1080.svg"
+                  alt="Third Bracket"
+                  className="h-7 w-auto"
+                />
               </a>
-              <p className="text-[11px] text-neutral-500 mt-1.5">Need a website? We build fast, modern sites for restaurants & businesses.</p>
+              <p className="text-[11px] text-zinc-400 mt-1.5">
+                Need a website? We build fast, modern sites for restaurants &
+                businesses.
+              </p>
             </div>
             <div className="flex flex-wrap gap-x-4 gap-y-1.5">
               {[
-                { label: "Web Design", href: "https://www.thirdbracket.co.uk/web-design-manchester" },
-                { label: "Web Development", href: "https://www.thirdbracket.co.uk/services/web-development" },
-                { label: "BracketUI", href: "https://www.thirdbracket.co.uk/bracketui" },
-                { label: "Our Work", href: "https://www.thirdbracket.co.uk/work" },
-                { label: "Book a Call", href: "https://www.thirdbracket.co.uk/contact" },
+                {
+                  label: "Web Design",
+                  href: "https://www.thirdbracket.co.uk/web-design-manchester",
+                },
+                {
+                  label: "Web Development",
+                  href: "https://www.thirdbracket.co.uk/services/web-development",
+                },
+                {
+                  label: "BracketUI",
+                  href: "https://www.thirdbracket.co.uk/bracketui",
+                },
+                {
+                  label: "Our Work",
+                  href: "https://www.thirdbracket.co.uk/work",
+                },
+                {
+                  label: "Book a Call",
+                  href: "https://cal.com/sagarmusabbir",
+                },
               ].map((item) => (
                 <a
                   key={item.label}
@@ -68,28 +89,55 @@ const Footer = () => {
           </div>
 
           {/* BayofBengal side */}
-          <div className="flex-1 px-6 py-5">
+          <div className="flex-1 px-6 py-6">
             <div className="mb-3">
+              <p className="text-[11px] text-zinc-400 tracking-tight mb-2">
+                Import fresh shrimp, crab & seafood from Bangladesh?
+              </p>
               <a
                 href="https://www.bayxbengal.com/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 hover:opacity-80 transition-opacity mb-1.5"
+                className="inline-flex items-center gap-1 opacity-60 hover:opacity-80 transition-opacity mb-2"
               >
-                <span className="text-sm font-black tracking-tight" style={{ color: "#e8622a" }}>Bay</span>
-                <span className="text-sm font-black tracking-tight text-neutral-500">of</span>
-                <span className="text-sm font-black tracking-tight text-white">Bengal</span>
+                Visit&nbsp;
+                <span
+                  className="text-sm font-black tracking-tight"
+                  style={{ color: "#e8622a" }}
+                >
+                  Bay
+                </span>
+                <span className="text-sm font-black tracking-tight text-neutral-500">
+                  of
+                </span>
+                <span className="text-sm font-black tracking-tight text-white">
+                  Bengal
+                </span>
                 <BsArrowUpRight size={9} className="text-neutral-600 ml-0.5" />
               </a>
-              <p className="text-[11px] text-neutral-600 tracking-tight">Import fresh shrimp, crab & seafood from Bangladesh?</p>
             </div>
             <div className="flex flex-wrap gap-x-4 gap-y-1.5">
               {[
-                { label: "Shrimp Suppliers", href: "https://www.bayxbengal.com/industry/shrimps-suppliers-bangladesh" },
-                { label: "Fish Exporters", href: "https://www.bayxbengal.com/industry/fish-export-bangladesh" },
-                { label: "Frozen Seafood", href: "https://www.bayxbengal.com/industry/frozen-seafood-bangladesh" },
-                { label: "Fresh Vegetables", href: "https://www.bayxbengal.com/industry/vegetable-export-bangladesh" },
-                { label: "Crab Exporters", href: "https://www.bayxbengal.com/industry/crab-export-bangladesh" },
+                {
+                  label: "Shrimp Suppliers",
+                  href: "https://www.bayxbengal.com/industry/shrimps-suppliers-bangladesh",
+                },
+                {
+                  label: "Fish Exporters",
+                  href: "https://www.bayxbengal.com/industry/fish-export-bangladesh",
+                },
+                {
+                  label: "Frozen Seafood",
+                  href: "https://www.bayxbengal.com/industry/frozen-seafood-bangladesh",
+                },
+                {
+                  label: "Fresh Vegetables",
+                  href: "https://www.bayxbengal.com/industry/vegetable-export-bangladesh",
+                },
+                {
+                  label: "Crab Exporters",
+                  href: "https://www.bayxbengal.com/industry/crab-export-bangladesh",
+                },
               ].map((item) => (
                 <a
                   key={item.label}
@@ -103,7 +151,6 @@ const Footer = () => {
               ))}
             </div>
           </div>
-
         </div>
       </motion.div>
 
@@ -132,9 +179,9 @@ const Footer = () => {
         variants={fadeInUp}
         className="pb-8 text-center tracking-tighter text-neutral-600 text-xs"
       >
-        &copy; {new Date().getFullYear()} Just Hungry, Blackpool. All rights reserved.
+        &copy; {new Date().getFullYear()} Just Hungry, Blackpool. All rights
+        reserved.
       </motion.p>
-
     </motion.footer>
   );
 };
