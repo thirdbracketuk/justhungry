@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./index.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://justhungry.co.uk"),
   title: "Just Hungry",
   description: "Just Hungry - Fast food restaurant in Blackpool",
   other: {
