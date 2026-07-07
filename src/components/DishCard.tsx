@@ -11,7 +11,7 @@ interface DishCardProps {
 
 const DishCard = ({ item }: DishCardProps) => {
   return (
-    <div className="flex flex-col rounded-2xl border border-neutral-800 bg-neutral-900 overflow-hidden">
+    <div className="flex flex-col rounded-2xl border border-neutral-800 bg-neutral-900 overflow-hidden transition-colors hover:border-neutral-700">
       {/* Image */}
       {item.image ? (
         <img
@@ -57,26 +57,29 @@ const DishCard = ({ item }: DishCardProps) => {
           {item.description}
         </p>
 
-        {/* Order buttons — stacked on mobile, side by side on sm+ */}
-        <div className="flex flex-col  gap-2 mt-auto pt-1">
+        {/* Compact order icons */}
+        {/* Compact order buttons */}
+        <div className="flex gap-2 mt-auto pt-1">
           <a
             href={JUSTEAT_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-1 flex items-center justify-center gap-2 rounded-lg bg-orange-500 hover:bg-orange-600 transition-colors py-2 text-sm font-bold text-white"
+            aria-label="Order on Just Eat"
+            className="flex-1 flex items-center justify-center gap-1.5 rounded-lg bg-orange-500 hover:bg-orange-600 transition-colors py-2 text-xs font-bold text-white"
           >
             <SiJusteat size={12} />
-            Order on Just Eat
+            Just Eat
             <HiArrowUpRight size={10} className="opacity-70" />
           </a>
           <a
             href={UBEREATS_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex-1 flex items-center justify-center gap-2 rounded-lg bg-neutral-800 hover:bg-neutral-700 transition-colors py-2 text-sm font-bold text-white border border-neutral-700"
+            aria-label="Order on Uber Eats"
+            className="flex-1 flex items-center justify-center gap-1.5 rounded-lg bg-neutral-800 hover:bg-neutral-700 transition-colors py-2 text-xs font-bold text-white border border-neutral-700"
           >
             <SiUbereats size={12} className="text-green-400" />
-            Order on Uber Eats
+            Uber Eats
             <HiArrowUpRight size={10} className="opacity-70" />
           </a>
         </div>
