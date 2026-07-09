@@ -426,7 +426,7 @@ export const CONTACT: ContactDetail[] = [
 
 export const SOCIAL_MEDIA_LINKS: SocialMediaLink[] = [
   {
-    href: "https://www.facebook.com/justhungryblackpool",
+    href: "https://share.google/wCCglLALKtsZJufMx",
     icon: <FaGoogle fontSize={30} className="hover:opacity-80" />,
   },
   {
@@ -434,7 +434,7 @@ export const SOCIAL_MEDIA_LINKS: SocialMediaLink[] = [
     icon: <FaTiktok fontSize={30} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.facebook.com/people/Just-Hungry-Ltd/61581808076492/",
+    href: "https://www.facebook.com/justhungryblackpool",
     icon: <FaFacebook fontSize={30} className="hover:opacity-80" />,
   },
 ];
