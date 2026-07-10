@@ -46,7 +46,7 @@ export interface SocialMediaLink {
 export const LINKS: Link[] = [
   { text: "Menu", targetId: "dishes" },
   { text: "About", targetId: "about" },
-  { text: "Mission", targetId: "mission" },
+  { text: "Order", targetId: "order" },
   { text: "Reviews", targetId: "reviews" },
   { text: "Contact", targetId: "contact" },
 ];

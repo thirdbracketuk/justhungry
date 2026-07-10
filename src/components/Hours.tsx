@@ -169,6 +169,7 @@ const HoursAndOrder = () => {
   return (
     <motion.section
       initial="hidden"
+      id="order"
       whileInView="visible"
       viewport={{ once: true }}
       variants={containerVariants}

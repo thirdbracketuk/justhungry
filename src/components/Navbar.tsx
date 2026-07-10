@@ -64,7 +64,7 @@ const Navbar = () => {
             className="text-xs font-semibold text-white px-3 py-2 bg-gradient-to-l from-amber-500 to-orange-500 rounded-full flex items-center gap-1"
             href="https://www.thirdbracket.co.uk/contact"
           >
-            Get a Website
+            Contact for Website
             <BsArrowUpRight size={11} />
           </a>
         </div>
