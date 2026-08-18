@@ -103,7 +103,7 @@ const Footer = () => {
                     className="text-sm font-black tracking-tight"
                     style={{ color: "#e8622a" }}
                   >
-                    BayXBengal
+                    Bay X Bengal
                   </span>
                   <HiArrowUpRight
                     size={9}
