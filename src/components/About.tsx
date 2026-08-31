@@ -17,7 +17,7 @@ const stagger: Variants = {
 
 const stats = [
   { value: "Blackpool", label: "Based In" },
-  { value: "98+", label: "Google Reviews" },
+  { value: "125+", label: "Google Reviews" },
   { value: "5★", label: "Rated" },
 ];
 
