@@ -22,7 +22,7 @@ const stats = [
   {
     label: "Google",
     rating: "5.0",
-    reviews: "126 reviews",
+    reviews: "200+ reviews",
     icon: <FcGoogle size={28} />,
   },
 ];

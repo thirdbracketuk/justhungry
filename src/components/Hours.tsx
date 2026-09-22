@@ -271,7 +271,7 @@ const HoursAndOrder = () => {
         </motion.div>
 
         {/* Order buttons */}
-        <motion.div
+        {/* <motion.div
           variants={fadeInUp}
           className="flex flex-col gap-2 rounded-2xl border border-neutral-800 bg-neutral-900 p-6 justify-center"
         >
@@ -288,7 +288,7 @@ const HoursAndOrder = () => {
               <HiArrowUpRight size={10} className="opacity-70" />
             </a>
           ))}
-        </motion.div>
+        </motion.div> */}
       </motion.div>
     </motion.section>
   );

@@ -59,7 +59,7 @@ const DishCard = ({ item }: DishCardProps) => {
 
         {/* Compact order icons */}
         {/* Compact order buttons */}
-        <div className="flex gap-2 mt-auto pt-1">
+        {/* <div className="flex gap-2 mt-auto pt-1">
           <a
             href={JUSTEAT_URL}
             target="_blank"
@@ -82,7 +82,7 @@ const DishCard = ({ item }: DishCardProps) => {
             Uber Eats
             <HiArrowUpRight size={10} className="opacity-70" />
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

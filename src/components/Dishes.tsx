@@ -32,31 +32,18 @@ const Dishes = () => {
           Our Menu
         </h2>
         <p className="mb-10 text-center text-neutral-400 text-sm tracking-tight">
-          Order online via Just Eat or Uber Eats
+          We're eliminating third-party platform fees so we can pass the savings
+          to you.
+          <br />
+          Order now through our own platform and enjoy better prices and fresher
+          deliveries.
         </p>
 
         {/* Order CTA buttons */}
         <div className="flex flex-col sm:flex-row justify-center items-center gap-3 mb-12">
-          <a
-            href={JUSTEAT_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-orange-500 hover:bg-orange-600 transition-colors text-sm font-bold text-white"
-          >
-            <SiJusteat size={16} />
-            Browse on Just Eat
-            <HiArrowUpRight size={10} className="opacity-70" />
-          </a>
-          <a
-            href={UBEREATS_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-full sm:w-auto flex items-center justify-center gap-2 px-6 py-3 rounded-full bg-neutral-800 hover:bg-neutral-700 transition-colors text-sm font-bold text-white border border-neutral-700"
-          >
-            <SiUbereats size={16} className="text-green-400" />
-            Browse on Uber Eats
-            <HiArrowUpRight size={10} className="opacity-70" />
-          </a>
+          <h3 className="text-2xl font-bold tracking-tighter italic text-amber-100">
+            Now Accepting Direct Orders Only
+          </h3>
         </div>
 
         {/* Featured items */}
